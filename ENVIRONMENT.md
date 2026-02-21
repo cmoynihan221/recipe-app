@@ -6,7 +6,7 @@ To ensure consistent development and deployment, use the following versions:
 
 - **Python:** 3.13.x (recommended: latest 3.13 release)
 - **Node.js:** 20.x (for frontend development)
-- **PostgreSQL:** 18.x (server and client tools, e.g., `pg_dump`)
+- **PostgreSQL:** 14.x (server and client tools, e.g., `pg_dump`)
 - **pip:** Latest (upgrade with `pip install --upgrade pip`)
 - **Alembic:** Latest (install with `pip install alembic`)
 
