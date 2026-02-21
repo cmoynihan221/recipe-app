@@ -56,6 +56,20 @@
    ```
 - Ensure the DATABASE_URL environment variable is set before running Alembic commands.
 
+## Running Tests
+- Activate the virtual environment:
+  ```bash
+  source backend/venv/bin/activate
+  ```
+- Install test dependencies (if not already installed):
+  ```bash
+  pip install pytest httpx
+  ```
+- Run all tests from the project root:
+  ```bash
+  PYTHONPATH=. pytest backend/tests
+  ```
+
 ## Notes
 - Ensure you are in the backend directory before running commands.
 - Update requirements.txt after installing new packages.

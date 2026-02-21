@@ -1,0 +1,8 @@
+/openapi.json ['HEAD', 'GET']
+/docs ['HEAD', 'GET']
+/docs/oauth2-redirect ['HEAD', 'GET']
+/redoc ['HEAD', 'GET']
+/recipes/ ['GET']
+/recipes/{recipe_id} ['GET']
+/ ['GET']
+/health ['GET']

@@ -1,6 +1,9 @@
 from fastapi import FastAPI
+from backend.controllers.recipe import router as recipe_router
 
 app = FastAPI()
+
+app.include_router(recipe_router)
 
 @app.get("/")
 def read_root():

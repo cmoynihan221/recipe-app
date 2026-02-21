@@ -12,6 +12,14 @@
 - **Tagging System:** Tags extracted from markdown files; automatic tagging via async job (word count/key term analysis) is a secondary feature.
 
 ## Key Conventions
+
+### Backend Project Structure Guidelines
+- Place SQLAlchemy models in `backend/models/`
+- Place Pydantic schemas in `backend/schemas/`
+- Place API controllers/routers in `backend/controllers/`
+- Place database utilities and seed scripts in `backend/db/`
+- Place tests in `backend/tests/`
+
 - Recipes are stored as markdown files in Google Drive.
 - Tags are initially extracted from markdown metadata/content; frontend only supports searching/filtering tags.
 - Backend syncs recipes periodically and updates the database.
