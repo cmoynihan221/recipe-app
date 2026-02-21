@@ -1,1 +1,5 @@
 venv/
+*.pyc
+__pycache__/
+db/__pycache__/
+db/alembic/versions/__pycache__/
