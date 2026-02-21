@@ -34,6 +34,14 @@
 - Local development uses test Google account and credentials.
 - Deployment will use Docker and environment variables for credentials.
 
+## Frontend Development Guidelines
+- Use React with Vite for the frontend app (in frontend/).
+- Break UI into small, reusable components wherever possible.
+- Create custom React hooks for all API interactions.
+- Use React Query for all data fetching, caching, and mutation logic.
+- Write tests that mock API requests (not the custom hooks themselves).
+- Keep frontend code modular, DRY, and well-typed.
+
 ---
 
 Update this file as build, test, and lint commands are added, or as architecture evolves.

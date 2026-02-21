@@ -4,6 +4,7 @@ To ensure consistent development and deployment, use the following versions:
 
 ## Required Versions
 
+- **Frontend stack:** Vite (React), served by a separate static file server in production
 - **Python:** 3.13.x (recommended: latest 3.13 release)
 - **Node.js:** 20.x (for frontend development)
 - **PostgreSQL:** 14.x (server and client tools, e.g., `pg_dump`)
